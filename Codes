@@ -1,7 +1,0 @@
-import random
-#Taking input from the user
-print("Who will be paying the bill?\n")
-names = input("Give me the names: ")
-p = names.split()
-bill = random.randint(0, (len(p) - 1))
-print(f"{p[bill]} is going to pay the bill today!")
