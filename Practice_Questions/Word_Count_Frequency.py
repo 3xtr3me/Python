@@ -7,3 +7,6 @@ for word in sentence: #checking the word in split sentence
 #If it’s not in the dictionary, it's added with a value of 1.
 #If it’s already in the dictionary, its value is incremented by 1.
 print(word_count)
+#Output:
+#Enter a Sentence: Hello World Hello
+#{'Hello': 2, 'World': 1}
